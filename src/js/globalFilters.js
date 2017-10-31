@@ -1,6 +1,6 @@
 import Vue from 'vue'
 
-// 6.1 定义全局的时间格式化的过滤器
+//  定义全局的时间格式化的过滤器
 // {{ item.date | dateFormat('yyyy-mm-dd') }}
 // moment.js
 import moment from 'moment'

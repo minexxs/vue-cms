@@ -111,6 +111,6 @@ border: 1px solid #ccc;
     height: 80px;
     line-height: 80px;
     background-color: #fff;
-    border: 1px solid #ccc;
+       border: 1px solid #ccc;
   }
 </style>

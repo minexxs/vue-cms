@@ -1,11 +1,11 @@
 <template>
   <div>
-    <h4>SearchContainer</h4>
+    <h4>SearchContain</h4>
   </div>
 </template>
 
 <script>
-  
+
 </script>
 
 <style lang="scss" scoped>

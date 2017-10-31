@@ -1,17 +1,18 @@
 <template>
+	<!-- 白酒 -->
 	<div class="list">
 		<!-- 左 -->
 		<div class="left">
-				<router-link to="/home/newslist">
+				<router-link to="member/commodity">
 					<li class="pic">白酒</li>
 				</router-link>
-			<router-link to="/member/commodity">
+			<router-link to="member/commodity1">
 					<li>红酒</li>
 				</router-link>
 		</div>
 		 <!-- 右 -->
 		 <div class="right">
-
+			 我是白酒
 		 </div>
 	</div>
 </template>
@@ -24,6 +25,7 @@
 <style lang="scss" scoped>
 		.list{
 			.left{
+                float: left;
 				width: 25%;
 				li{
 					list-style-type: none;
@@ -39,6 +41,7 @@
 				}
 			}
 			.right{
+                float: right;
 				width: 75%;
 			}
 		}

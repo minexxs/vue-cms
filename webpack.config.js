@@ -20,7 +20,8 @@ module.exports = {
       { test: /\.(jpg|jpeg|png|gif|bmp)$/, use: 'url-loader' }, // 处理样式中图片URL路径的loader
       { test: /\.(ttf|eot|woff|woff2|svg)$/, use: 'url-loader' }, // 处理 字体文件路径 的loader
       { test: /\.js$/, use: 'babel-loader', exclude: /node_modules/ }, // babel-loader
-      { test: /\.vue$/, use: 'vue-loader', exclude: /node_modules/ } // vue-loader
+      { test: /\.vue$/, use: 'vue-loader' } // vue-loader
     ]
-  }
+  },
+  
 }

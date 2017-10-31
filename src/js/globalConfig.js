@@ -1,3 +1,3 @@
 export default {
-  baseUrl: 'http://127.0.0.1:8899' // API 数据接口的根路径
+  baseUrl: 'http://192.168.1.11:8080/zdz1-shop/api/' // API 数据接口的根路径
 }
